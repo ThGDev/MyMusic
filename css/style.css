@@ -9,6 +9,7 @@ Thierry Goguet
 
 body{
     color: #343A40;
+    background: linear-gradient(180deg, #FFFFFF 0%, #EFEFEF 100%);
 }
 
 header{
