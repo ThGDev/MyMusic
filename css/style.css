@@ -11,10 +11,9 @@ body{
     color: #343A40;
 }
 
-/* header{
-    display: flex;
-    align-items: center;
-} */
+header{
+    padding: 10px;
+}
 nav, header{
     background: #554236;
 }
@@ -22,7 +21,32 @@ nav, header{
 h1{
     font-family: 'Amatic SC', cursive;
     color: #fff;
+    font-size: 5.5rem;
+    width: 85%;
+    text-align: center;
 }
+h2.bandeauTitreH2{
+    color: #fff;
+    background: #343A40;
+    text-align: center;
+}
+h3.bandeauTitreH3Artistes, h3.bandeauTitreH3Titres{
+    font-size: calc(0.7rem + .6vw);
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0;
+}
+h3.bandeauTitreH3Artistes{
+    background: #83555E;
+}
+h3.bandeauTitreH3Titres{
+    background: #D16344;
+}
+
+
+#logo{
+    width: 15%;
+}    
 
 #inputs{
     text-align: center;
@@ -37,46 +61,123 @@ h1{
     margin: auto;
 }
 
-.nav-link{
+.nav-link, footer ul li a{
     color: #fff;
 }
-.nav-link:hover{
+.nav-link:hover, footer ul li a:hover{
     color: #FDBE13;
 }
 
+/* ------------------------- BOUTONS RECHERCHE ------------------------- */
 .btn{
     width: 140px;
+    margin: 20px;
+}
+.btn-mb, .btn-mb:hover, .btn-sptf, .btn-sptf:hover, .btn-dz, .btn-dz:hover{
+    color: #fff;
 }
 /* bouton MusicBrainz */
 .btn-mb {
-    color: #fff;
     background-color: #EB743B;
     border-color: #EB743B;
 }
 .btn-mb:hover {
-    color: #fff;
     background-color: #C86434;
     border-color: #C86434;
+}
+/* bouton Spotify */
+.btn-sptf {
+    background-color: #1DB954;
+    border-color: #1DB954;
+}
+.btn-sptf:hover {
+    background-color: #199A47;
+    border-color: #199A47;
+}
+/* bouton Deezer */
+.btn-dz {
+    background-color: #f00;
+    border-color: #f00;
+}
+.btn-dz:hover {
+    background-color: #B70202;
+    border-color: #B70202;
+}
+/* bouton TuneIn */
+.btn-ti, .btn-ti:hover{
+    color: #1c203c;
+}
+.btn-ti {
+    background-color: #14D8CC;
+    border-color: #14D8CC;
+}
+.btn-ti:hover {
+    background-color: #11A199;
+    border-color: #11A199;
+}
+
+/* ------------------------- BLOCS GROUPE/ARTISTE ou TITRE ------------------------- */
+#rechrec, #populaire {
+    margin-bottom: 20px;
+}
+.contenuArtistes{
+    background: rgba(131, 85, 94, 0.1);
+}
+.contenuTitres{
+    background: rgba(209, 99, 68, 0.1);
+}
+.blocArtiste, .blocTitre {
+    width: calc(100% / 4);
+    text-align: center;
+    padding: 10px;
+}
+
+/* FOOTER */
+footer{
+    background: #343A40;
+    color: #fff;
+}
+footer ul{
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer ul li{
+    display: inline-block;
+}
+footer ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
 
 /* ------------------------- MEDIA QUERIES ------------------------- */
 /* SMARTPHONES */
 @media screen and (max-width : 768px) {
-    header{
-        padding: 10px;
-    }
     #logo{
         width: 135px;
-        height: 135px;
     }
     h1{
         font-size: 3rem;
         text-align: center;
     }
+    .blocArtiste, .blocTitre {
+        width: calc(100% / 2);
+    }
+    footer ul{
+        display: block;
+        text-align: center;
+    }
+    footer ul li{
+        display: block;
+        margin: 10px;
+    }
 }
 
 /* TABLETTES */
 @media screen and (min-width: 768px) and (max-width : 1200px) {
-    
+    .blocArtiste, .blocTitre {
+        width: calc(100% / 3);
+    }
 }
 
 /* DESKTOP */

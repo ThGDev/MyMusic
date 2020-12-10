@@ -9,7 +9,7 @@
 </head>
 <body>
     <!-- ENTETE AVEC LOGO + H1 + NAVBAR -->
-    <header class="d-flex flex-row justify-content-center align-items-center">
+    <header class="d-flex flex-row align-items-center">
         <img src="img/logo.png" alt="logo" id="logo">
         <h1>Toute ma musique au même endroit !</h1>
     </header>
@@ -22,72 +22,168 @@
 
     <!-- CONTENU GENERAL -->
     <main class="container">
-        <!-- FORMULAIRE -->
-        <form action="#" method="post">
-            <!-- INPUTS -->
-            <div id="inputs" class="justify-content-center">
-                <h2>Rechercher</h2>
-                <input class="form-control form-control-lg" type="text" placeholder="Un artiste">
-                <p>ou</p>
-                <input class="form-control form-control-lg" type="text" placeholder="Un morceau">
-            </div>
-            <!-- BOUTONS -->
-            <div id="buttons" class="d-flex flex-wrap justify-content-center">
-                <h2>Choisi ta plateforme préférée</h2>
-                <button class="btn btn-mb" id="musicbrainz"><span class="iconify" data-inline="false" data-icon="simple-icons:musicbrainz" style="color: #ffffff; font-size: 24px;"></span> MusicBrainz</button>
-                <button class="btn btn-primary" id="spotify"><span class="iconify" data-inline="false" data-icon="simple-icons:spotify" style="color: #ffffff; font-size: 24px;"></span> Spotify</button>
-                <button class="btn btn-primary" id="deezer"><span class="iconify" data-inline="false" data-icon="simple-icons:deezer" style="color: #ffffff; font-size: 24px;"></span> Deezer</button>
-                <button class="btn btn-info" id="tunein"><span class="iconify" data-inline="false" data-icon="simple-icons:tunein" style="color: #1c203c; font-size: 24px;"></span> TuneIn</button>
-            </div>
-        </form>
+        <div class="row">
+            <!-- FORMULAIRE -->
+            <form action="#" method="post">
+                <!-- INPUTS -->
+                <div id="inputs" class="justify-content-center">
+                    <h2>Rechercher</h2>
+                    <input class="form-control form-control-lg" type="text" placeholder="Un artiste">
+                    <p>ou</p>
+                    <input class="form-control form-control-lg" type="text" placeholder="Un morceau">
+                </div>
+                <!-- BOUTONS -->
+                <div id="blocBoutons" class="d-flex flex-wrap justify-content-center">
+                    <h2>Choisis ta plateforme préférée</h2>
+                    <div id="buttons" class="justify-content-center row row-cols-2 row-cols-md-4">
+                        <button class="btn btn-mb col" id="musicbrainz"><span class="iconify" data-inline="false" data-icon="simple-icons:musicbrainz" style="color: #ffffff; font-size: 24px;"></span> MusicBrainz</button>
+                        <button class="btn btn-sptf col" id="spotify"><span class="iconify" data-inline="false" data-icon="simple-icons:spotify" style="color: #ffffff; font-size: 24px;"></span> Spotify</button>
+                        <button class="btn btn-dz col" id="deezer"><span class="iconify" data-inline="false" data-icon="simple-icons:deezer" style="color: #ffffff; font-size: 24px;"></span> Deezer</button>
+                        <button class="btn btn-ti col" id="tunein"><span class="iconify" data-inline="false" data-icon="simple-icons:tunein" style="color: #1c203c; font-size: 24px;"></span> TuneIn</button>
+                    </div>
+                </div>
+            </form>
+        </div>
 
         <!-- RECHERCHES RECENTES -->
-        <div id="rechrec">
-            <h2 class="bandeauTitreH2">Mes recherches récentes</h2>
+        <h2 class="bandeauTitreH2 p-2">Mes recherches récentes</h2>
+        <div id="rechrec" class="row row-cols-1 row-cols-md-2">
 
             <!-- LES ARTISTES / GROUPES -->
-            <div class="artistes">
-                <h3 class="bandeauTitreH3Artistes">Artistes / Groupes :</h3>
-                <!-- Image dans rep. IMG/ZIK/ -->
-                <img src="img/zik/acdc-high-voltage.jpg" alt="Image-Artiste">
-                <span class="badge rounded-pill bg-secondary">Nom Artiste</span>
+            <div class="artistes col">
+                <h3 class="bandeauTitreH3Artistes p-1">Artistes / Groupes :</h3>
+                <div class="contenuArtistes d-flex flex-wrap justify-content-evenly">
+                    <!-- ARTISTE 1 - Image dans rep. IMG/ZIK/ -->
+                    <div class="blocArtiste">
+                        <img class="img-fluid rounded" src="img/zik/acdc-high-voltage.jpg" alt="Image-Artiste">
+                        <p class="badge rounded-pill bg-secondary">AC/DC</p>
+                    </div>
+                    <!-- ARTISTE 2 - Image dans rep. IMG/ZIK/ -->
+                    <div class="blocArtiste">
+                        <img class="img-fluid rounded" src="img/zik/nirvana-nevermind.jpg" alt="Image-Artiste">
+                        <p class="badge rounded-pill bg-secondary">Nirvana</p>
+                    </div>
+                    <!-- ARTISTE 3 - Image dans rep. IMG/ZIK/ -->
+                    <div class="blocArtiste">
+                        <img class="img-fluid rounded" src="img/zik/aznavour-la-boheme.jpg" alt="Image-Artiste">
+                        <p class="badge rounded-pill bg-secondary">C. Aznavour</p>
+                    </div>
+                    <!-- ARTISTE 4 - Image dans rep. IMG/ZIK/ -->
+                    <div class="blocArtiste">
+                        <img class="img-fluid rounded" src="img/zik/eminem-the-eminem-show.jpg" alt="Image-Artiste">
+                        <p class="badge rounded-pill bg-secondary">Eminem</p>
+                    </div>
+                </div>
             </div>
 
             <!-- LES TITRES -->
-            <div class="titres">
-                <h3 class="bandeauTitreH3Titres">Titres :</h3>
-                <!-- Image dans rep. IMG/ZIK/ -->
-                <img src="img/zik/noir-desir-tostaky.jpg" alt="Image-Titre">
-                <span class="badge rounded-pill bg-light text-dark">Nom de l'artiste</span>
-                <span class="badge rounded-pill bg-success">Nom du titre</span>
+            <div class="titres col">
+                <h3 class="bandeauTitreH3Titres p-1">Titres :</h3>
+                <div class="contenuTitres d-flex flex-wrap justify-content-evenly">
+                    <!--TITRE 1 - Image dans rep. IMG/ZIK/ -->
+                    <div class="blocTitre">
+                        <img class="img-fluid rounded" src="img/zik/noir-desir-tostaky.jpg" alt="Image-Titre">
+                        <span class="badge rounded-pill bg-light text-dark">Noir Désir</span>
+                        <span class="badge rounded-pill bg-success">Tostaky</span>
+                    </div>
+                    <!-- TITRE 2 - Image dans rep. IMG/ZIK/ -->
+                    <div class="blocTitre">
+                        <img class="img-fluid rounded" src="img/zik/m-jackson_off-the-wall.jpg" alt="Image-Titre">
+                        <span class="badge rounded-pill bg-light text-dark">M. Jackson</span>
+                        <span class="badge rounded-pill bg-success">Don't stop ...</span>
+                    </div>
+                </div>
             </div>
         </div>
 
         <!-- POPULAIRE DANS LA COMMUNAUTE -->
-        <div id="populaire">
-            <h2 class="bandeauTitreH2">Artistes / titres populaires dans la communauté :</h2>
+        <h2 class="bandeauTitreH2 p-2">Artistes / titres populaires dans la communauté :</h2>
+        <div id="populaire" class="row row-cols-1 row-cols-md-2">
 
             <!-- LES ARTISTES / GROUPES -->
-            <div class="artistes">
-                <h3 class="bandeauTitreH3Artistes">Artistes / Groupes :</h3>
-                <!-- Image dans rep. IMG/ZIK/ARTISTES/ -->
-                <img src="img/zik/artistes/pink-floyd.jpg" alt="Image-Artiste">
-                <span class="badge rounded-pill bg-secondary">Nom Artiste</span>
+            <div class="artistes col">
+                <h3 class="bandeauTitreH3Artistes p-1">Artistes / Groupes :</h3>
+                <div class="contenuArtistes d-flex flex-wrap justify-content-evenly">
+                    <!-- ARTISTE 1 - Image dans rep. IMG/ZIK/ARTISTES/ -->
+                    <div class="blocArtiste">
+                        <img class="img-fluid rounded" src="img/zik/artistes/pink-floyd.jpg" alt="Image-Artiste">
+                        <span class="badge rounded-pill bg-secondary">Pink Floyd</span>
+                    </div>
+                    <!-- ARTISTE 2 - Image dans rep. IMG/ZIK/ARTISTES/ -->
+                    <div class="blocArtiste">
+                        <img class="img-fluid rounded" src="img/zik/artistes/deep-purple.jpg" alt="Image-Artiste">
+                        <span class="badge rounded-pill bg-secondary">Deep Purple</span>
+                    </div>
+                    <!-- ARTISTE 3 - Image dans rep. IMG/ZIK/ARTISTES/ -->
+                    <div class="blocArtiste">
+                        <img class="img-fluid rounded" src="img/zik/artistes/daft-punk.jpg" alt="Image-Artiste">
+                        <span class="badge rounded-pill bg-secondary">Daft Punk</span>
+                    </div>
+                    <!-- ARTISTE 4 - Image dans rep. IMG/ZIK/ARTISTES/ -->
+                    <div class="blocArtiste">
+                        <img class="img-fluid rounded" src="img/zik/artistes/bowie.jpg" alt="Image-Artiste">
+                        <span class="badge rounded-pill bg-secondary">D. Bowie</span>
+                    </div>
+                    <!-- ARTISTE 5 - Image dans rep. IMG/ZIK/ARTISTES/ -->
+                    <div class="blocArtiste">
+                        <img class="img-fluid rounded" src="img/zik/artistes/lifelike.jpg" alt="Image-Artiste">
+                        <span class="badge rounded-pill bg-secondary">Lifelike</span>
+                    </div>
+                    <!-- ARTISTE 5 - Image dans rep. IMG/ZIK/ARTISTES/ -->
+                    <div class="blocArtiste">
+                        <img class="img-fluid rounded" src="img/zik/artistes/brassens.jpg" alt="Image-Artiste">
+                        <span class="badge rounded-pill bg-secondary">G. Brassens</span>
+                    </div>
+                </div>
             </div>
 
             <!-- LES TITRES -->
-            <div class="titres">
-                <h3 class="bandeauTitreH3Titres">Titres :</h3>
-                <!-- Image dans rep. IMG/ZIK/TITRES/ -->
-                <img src="img/zik/titres/soul-sugar_why-can-t-we-live-together.jpg" alt="Image-Titre">
-                <span class="badge rounded-pill bg-light text-dark">Nom de l'artiste</span>
-                <span class="badge rounded-pill bg-success">Nom du titre</span>
+            <div class="titres col">
+                <h3 class="bandeauTitreH3Titres p-1">Titres :</h3>
+                <div class="contenuTitres d-flex flex-wrap justify-content-evenly">
+                    <!-- TITRE 1 - Image dans rep. IMG/ZIK/TITRES/ -->
+                    <div class="blocTitre">
+                        <img class="img-fluid rounded" src="img/zik/titres/soul-sugar_why-can-t-we-live-together.jpg" alt="Image-Titre">
+                        <span class="badge rounded-pill bg-light text-dark">Soul Sugar</span>
+                        <span class="badge rounded-pill bg-success">Whay can't ...</span>
+                    </div>
+                    <!-- TITRE 2 - Image dans rep. IMG/ZIK/TITRES/ -->
+                    <div class="blocTitre">
+                        <img class="img-fluid rounded" src="img/zik/titres/Sharon-Jones-And-The-Dap-Kings_world-of-love.jpg" alt="Image-Titre">
+                        <span class="badge rounded-pill bg-light text-dark">S. Jones ...</span>
+                        <span class="badge rounded-pill bg-success">World of love</span>
+                    </div>
+                    <!-- TITRE 3 - Image dans rep. IMG/ZIK/TITRES/ -->
+                    <div class="blocTitre">
+                        <img class="img-fluid rounded" src="img/zik/titres/nick-cave_black-hair.jpg" alt="Image-Titre">
+                        <span class="badge rounded-pill bg-light text-dark">N. Cave</span>
+                        <span class="badge rounded-pill bg-success">Black hair</span>
+                    </div>
+                    <!-- TITRE 4 - Image dans rep. IMG/ZIK/TITRES/ -->
+                    <div class="blocTitre">
+                        <img class="img-fluid rounded" src="img/zik/titres/martin-leon_va-savoir-pourquoi.jpg" alt="Image-Titre">
+                        <span class="badge rounded-pill bg-light text-dark">M. Leon</span>
+                        <span class="badge rounded-pill bg-success">Va savoir ...</span>
+                    </div>
+                    <!-- TITRE 5 - Image dans rep. IMG/ZIK/TITRES/ -->
+                    <div class="blocTitre">
+                        <img class="img-fluid rounded" src="img/zik/titres/Hania-Rani_leaving.jpg" alt="Image-Titre">
+                        <span class="badge rounded-pill bg-light text-dark">H. Rani</span>
+                        <span class="badge rounded-pill bg-success">Leaving</span>
+                    </div>
+                    <!-- TITRE 6 - Image dans rep. IMG/ZIK/TITRES/ -->
+                    <div class="blocTitre">
+                        <img class="img-fluid rounded" src="img/zik/titres/Gettin-down-for-xmas_milly-and-milly.jpg" alt="Image-Titre">
+                        <span class="badge rounded-pill bg-light text-dark">Milly&Milly</span>
+                        <span class="badge rounded-pill bg-success">Gettin' down ...</span>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
 
     <!-- FOOTER AVEC LIENS -->
-    <footer>
+    <footer class="p-2">
         <ul>
             <li><a href="#">A propos</a></li>
             <li><a href="#">Liens</a></li>
