@@ -9,34 +9,35 @@
 </head>
 <body>
     <!-- ENTETE AVEC LOGO + H1 + NAVBAR -->
-    <header>
-        <img src="img/logo.png" alt="logo">
+    <header class="d-flex flex-row justify-content-center align-items-center">
+        <img src="img/logo.png" alt="logo" id="logo">
         <h1>Toute ma musique au même endroit !</h1>
-        <nav class="nav">
-            <a class="nav-link active" aria-current="page" href="#">Accueil</a>
-            <a class="nav-link" href="#">Mes Artistes</a>
-            <a class="nav-link" href="#">Qui sommes-nous</a>
-          </nav>
     </header>
+    <!-- NAVBAR -->
+    <nav class="nav d-flex justify-content-center">
+        <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+        <a class="nav-link" href="#">Mes Artistes</a>
+        <a class="nav-link" href="#">Qui sommes-nous</a>
+    </nav>
 
     <!-- CONTENU GENERAL -->
     <main class="container">
         <!-- FORMULAIRE -->
         <form action="#" method="post">
             <!-- INPUTS -->
-            <div id="inputs">
+            <div id="inputs" class="justify-content-center">
                 <h2>Rechercher</h2>
-                <input type="text" placeholder="Un artiste">
+                <input class="form-control form-control-lg" type="text" placeholder="Un artiste">
                 <p>ou</p>
-                <input type="text" placeholder="Un morceau">
+                <input class="form-control form-control-lg" type="text" placeholder="Un morceau">
             </div>
             <!-- BOUTONS -->
-            <div id="buttons">
+            <div id="buttons" class="d-flex flex-wrap justify-content-center">
                 <h2>Choisi ta plateforme préférée</h2>
-                <button id="musicbrainz"><span class="iconify" data-inline="false" data-icon="simple-icons:musicbrainz" style="color: #ffffff; font-size: 24px;"></span> MusicBrainz</button>
-                <button id="spotify"><span class="iconify" data-inline="false" data-icon="simple-icons:spotify" style="color: #ffffff; font-size: 24px;"></span> Spotify</button>
-                <button id="deezer"><span class="iconify" data-inline="false" data-icon="simple-icons:deezer" style="color: #ffffff; font-size: 24px;"></span> Deezer</button>
-                <button id="tunein"><span class="iconify" data-inline="false" data-icon="simple-icons:tunein" style="color: #1c203c; font-size: 24px;"></span> TuneIn</button>
+                <button class="btn btn-mb" id="musicbrainz"><span class="iconify" data-inline="false" data-icon="simple-icons:musicbrainz" style="color: #ffffff; font-size: 24px;"></span> MusicBrainz</button>
+                <button class="btn btn-primary" id="spotify"><span class="iconify" data-inline="false" data-icon="simple-icons:spotify" style="color: #ffffff; font-size: 24px;"></span> Spotify</button>
+                <button class="btn btn-primary" id="deezer"><span class="iconify" data-inline="false" data-icon="simple-icons:deezer" style="color: #ffffff; font-size: 24px;"></span> Deezer</button>
+                <button class="btn btn-info" id="tunein"><span class="iconify" data-inline="false" data-icon="simple-icons:tunein" style="color: #1c203c; font-size: 24px;"></span> TuneIn</button>
             </div>
         </form>
 
@@ -96,6 +97,7 @@
         </ul>
     </footer>
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <script src="assets/app.js"></script>
 </body>
 </html>

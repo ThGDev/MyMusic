@@ -7,11 +7,70 @@ Thierry Goguet
 /* ------------------------- IMPORT DES FONTS ------------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); /* Roboto + Amatic */
 
+body{
+    color: #343A40;
+}
+
+/* header{
+    display: flex;
+    align-items: center;
+} */
+nav, header{
+    background: #554236;
+}
+
+h1{
+    font-family: 'Amatic SC', cursive;
+    color: #fff;
+}
+
+#inputs{
+    text-align: center;
+    margin: 25px 0;
+}
+#inputs > p{
+    font-size: calc(1.325rem + .9vw);
+    font-weight: 500;
+}
+#inputs > input{
+    width: 90%;
+    margin: auto;
+}
+
+.nav-link{
+    color: #fff;
+}
+.nav-link:hover{
+    color: #FDBE13;
+}
+
+.btn{
+    width: 140px;
+}
+/* bouton MusicBrainz */
+.btn-mb {
+    color: #fff;
+    background-color: #EB743B;
+    border-color: #EB743B;
+}
+.btn-mb:hover {
+    color: #fff;
+    background-color: #C86434;
+    border-color: #C86434;
+
 /* ------------------------- MEDIA QUERIES ------------------------- */
 /* SMARTPHONES */
 @media screen and (max-width : 768px) {
-    .logo{
+    header{
+        padding: 10px;
+    }
+    #logo{
         width: 135px;
+        height: 135px;
+    }
+    h1{
+        font-size: 3rem;
+        text-align: center;
     }
 }
 
