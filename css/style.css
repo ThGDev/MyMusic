@@ -5,26 +5,39 @@ Thierry Goguet
 -------------------------- */
 
 /* ------------------------- IMPORT DES FONTS ------------------------- */
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); /* Roboto + Amatic */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,900;1,300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); /* Roboto + Poppins */
 
 body{
     color: #343A40;
     background: linear-gradient(180deg, #FFFFFF 0%, #EFEFEF 100%);
 }
 
+nav, header{
+    background: #000;
+}
 header{
     padding: 10px;
-}
-nav, header{
-    background: #554236;
+    background: url(../img/BG_vinyl_1920_blue.jpg);
+    background-size: cover;
+    height: 200px;
 }
 
 h1{
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
     color: #fff;
-    font-size: 5.5rem;
-    width: 85%;
-    text-align: center;
+    font-size: 3.5rem;
+    width: 50%;
+    text-align: right;
+    position: absolute;
+    right: 30px;
+    text-transform: uppercase;
+}
+h1 > span{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    color: #14D8CC;
 }
 h2{
     text-align: center;
@@ -156,12 +169,14 @@ footer ul li a{
 /* ------------------------- MEDIA QUERIES ------------------------- */
 /* SMARTPHONES */
 @media screen and (max-width : 768px) {
+    header{
+        height: 150px;
+    }
     #logo{
         width: 135px;
     }
     h1{
-        font-size: 2.5rem;
-        text-align: center;
+        font-size: 2rem;
     }
     .nav-link, footer ul li a{
         font-size: 0.9rem;
@@ -181,6 +196,13 @@ footer ul li a{
 
 /* TABLETTES */
 @media screen and (min-width: 768px) and (max-width : 1200px) {
+    header{
+        height: 250px;
+    }
+    h1{
+        font-size: 2.5rem;
+        width: 40%;
+    }
     .blocArtiste, .blocTitre {
         width: calc(100% / 3);
     }
@@ -188,5 +210,7 @@ footer ul li a{
 
 /* DESKTOP */
 @media screen and (min-width: 1200px) {
-    
+    header{
+        height: 200px;
+    }
 }
