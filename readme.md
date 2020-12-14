@@ -45,11 +45,15 @@ Codage de l'**HTML** et du **CSS**.
 
 ## Jour 3 - 12/12/2020
 
-Le **1er design** ne me semblait pas assez abouti, le 1er logo créé n'était pas assez explicite, le texte trop petit, le logo trop gros, ensuite, les couleurs n'étaient pas très harmonisées ni dans l'air du temps. J'ai donc décidé de le **revoir entièrement** ainsi que le **logo**.
+Le **1er design** ne me semblait pas assez abouti, le 1er logo créé n'était pas assez explicite, le texte trop petit, le logo trop gros, ensuite, les couleurs du site n'étaient pas très harmonisées ni dans l'air du temps. J'ai donc décidé de le **revoir entièrement** ainsi que le **logo**.
 
 *Le 1er logo* :
 
-<img src="https://github.com/ThGDev/MyMusic/blob/master/img/logov1.png" width="200" />
+<img src="https://github.com/ThGDev/MyMusic/blob/master/img/v1.0/logov1.png" width="200" />
+
+*Le 1er design* :
+
+<img src="https://github.com/ThGDev/MyMusic/blob/master/img/v1.0/maquette_p1_10-12-2020_9h.jpg" />
 
 Conception de la **maquette v.1.1**. pour les 2 pages demandées, chacune aux 3 résolutions, toujours sur FIGMA.
 
