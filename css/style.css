@@ -185,6 +185,7 @@ h3.bandeauTitreH3Titres{
     width: calc(100% / 4);
     text-align: center;
     padding: 10px;
+    position: relative;
 }
 .blocArtiste a, .blocTitre a{
     text-decoration: none;
@@ -224,6 +225,37 @@ h3.bandeauTitreH3Titres{
 .date{
     border-right: 1px solid #000;
 }
+.chiffreDate{
+    color: #EB743B;
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 2rem;
+}
+
+/* FAVORIS */
+.fa-star{
+    color: #FFE600;
+}
+.favArtistes, .favTitres{
+    position: absolute;
+    font-size: 1rem;
+    right: 1rem;
+    color: #FFE600;
+    font-size: 1rem;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+}
+.favArtistes{
+    bottom: 4rem;
+}
+.favTitres{
+    bottom: 5.3rem;
+}
+
+/* VIDEOS */
+.vid{
+    margin: 5px;
+    width: calc(97%/3);
+}
 
 /* FOOTER */
 footer{
@@ -261,6 +293,13 @@ footer ul li a{
     .blocArtiste, .blocTitre {
         width: calc(100% / 2);
     }
+    .fav{
+        font-size: 1.5rem;
+        text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+    }
+    .vid{
+        width: 97%;
+    }
     footer ul{
         display: block;
         text-align: center;
@@ -282,6 +321,9 @@ footer ul li a{
     }
     .blocArtiste, .blocTitre {
         width: calc(100% / 3);
+    }
+    .vid{
+        width: calc(97%/2);
     }
 }
 
