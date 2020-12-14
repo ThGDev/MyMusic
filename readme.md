@@ -1,6 +1,6 @@
 # My Music
 ## Présentation
-Mr et Mme Skeud, passionnés de musique depuis 40 ans, ont un projet d’application Web. Conseillés par un ami, ils souhaitent tester d’abord cette idée par un prototype de site Web statique. Ils proposent à une école un projet pédagogique consistant à faire réaliser cette première version en utilisant les langages **HTML 5**, **CSS3**, et, pourquoi pas, un zeste de **ECMA script 6**.
+> Mr et Mme Skeud, passionnés de musique depuis 40 ans, ont un projet d’application Web. Conseillés par un ami, ils souhaitent tester d’abord cette idée par un prototype de site Web statique. Ils proposent à une école un projet pédagogique consistant à faire réaliser cette première version en utilisant les langages **HTML 5**, **CSS3**, et, pourquoi pas, un zeste de **ECMA script 6**.
 
 2 images d'aperçu sont fournies :
 
