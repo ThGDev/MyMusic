@@ -36,7 +36,7 @@ Ces pastilles sont cliquables.
 
 Finition de la maquette v1.0.
 Mise en place du dossier de projet (arborescence et nom de dossiers imposés):
-![Arborescence du site](https://github.com/ThGDev/MyMusic/blob/master/orga_site.png?raw=true =450x)
+![Arborescence du site](https://github.com/ThGDev/MyMusic/blob/master/orga_site.png?raw=true&s=450)
 		
 Mise en place d'un repo GitHub ([Repo My Music](https://github.com/ThGDev/MyMusic) et activation de la page associée [Page GitHub My Music](https://thgdev.github.io/MyMusic))
 Codage de l'**HTML** et du **CSS**.
