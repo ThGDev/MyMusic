@@ -70,3 +70,6 @@ Conception de la **maquette v.1.1**. pour les 2 pages demandées, chacune aux 3 
 → Le résultat de cette recherche s'affichera juste en dessous du bloc de recherche (sous les boutons).
 
  - [ ] Possibilité de **mettre en favoris** un **artiste/groupe** ou un **titre** depuis les résultats de recherche sur la page d'accueil.
+
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Light_Bulb_or_Idea_Flat_Icon_Vector.svg/20px-Light_Bulb_or_Idea_Flat_Icon_Vector.svg.png" /> *Fichier créé à l'aide de [StackEdit.io](https://stackedit.io)*
