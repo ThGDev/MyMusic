@@ -21,6 +21,9 @@ Réflexion autour du **logo** également, puis autour de l'**ergonomie** (que me
 → Création *(très)* rapide du logo avec le service en ligne : [Looka](https://looka.com).
 
 J'ai opté pour mettre en avant la recherche d'**artiste** ou de **titre**, car ça me semblait être la fonctionnalité la plus importante du projet.
+Il était également important de créer des boutons au visuel correspondant aux différents services de recherche proposés.
+→ La plupart des codes couleurs sont dispos là : [Brand Colors](https://brandcolors.net).
+
 Puis ensuite, les **dernières recherches effectuées par l'utilisateur**, et enfin les **recherches les plus courantes dans la communauté**.
 
 J'ai également pris le parti de **partager** visuellement *(code couleur différent)* chaque bloc en **2 éléments** pour mieux les distinguer :
