@@ -72,6 +72,23 @@ Conception de la **maquette v.1.1**. pour les 2 pages demandées, chacune aux 3 
 ## Jour 6 - 16/12/2020
 
 
+## A FAIRE !!
+*(mais absent sur maquette)*
+
+ - [ ] Aperçu résultats de recherche sur page accueil
+ - [ ] Possibilité ajout favoris sur résultats de recherche
+ - [ ] Formulaire de contact
+ - [ ] Page "A propos"
+ - [ ] Modifier "A propos" par "Qui sommes-nous" dans le footer (afin d'harmoniser avec la barre de navigation du header)
+
+ ## A FAIRE si possible et si temps restant
+
+ - [ ] Tableau JSON Artistes/Groupes + Titres + images
+ **OU**
+ - [ ] fetch() API Deezer.
+ - [ ] Boucle sur artistes/groupes/titres
+
+
 ## Fonctionnalités à venir
 
  - [ ] Chaque bouton/pastille d'*artiste/groupe* (cas 1) et *titre* (cas 2), lorsqu'elle sera cliquée, permettra d'aller sur une page dédiée.
