@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mes Artistes</title>
+</head>
+<body>
+    <!-- ENTETE AVEC LOGO + H1 + NAVBAR -->
+    <header class="d-flex flex-row align-items-center">
+        <img src="img/logo3.png" alt="logo" id="logo">
+        <h1>Toute <span>ma musique</span> au même endroit !</h1>
+    </header>
+    <!-- NAVBAR -->
+    <nav class="nav d-flex justify-content-center">
+        <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+        <a class="nav-link" href="#">Mes Artistes</a>
+        <a class="nav-link" href="#">Qui sommes-nous</a>
+    </nav>
+
+    <!-- CONTENU GENERAL -->
+    <main class="container">
+        <!-- BIO -->
+        <h2>La <span class="titreSpanBio">BIO</span> du moment</h2>
+        <div class="row row-cols-1 row-cols-md-3 p-3">
+            <div class="blocArtisteBio col">
+                <img class="img-fluid rounded" src="img/zik/bio/vianney.jpg" alt="Vianney">
+                <a href="http://vianney-musique.com" target="_blank"><p class="badge rounded-pill bg-secondary">Vianney</p></a>
+            </div>
+            <div class="blocTexteBio col">
+                <p>
+                    Vianney Bureau dit Vianney, né le 13 février 1991 à Pau, est un auteur-compositeur-interprète français.
+                </p>
+                <p>
+                    À 24 ans, il remporte le trophée d'artiste interprète de l'année aux Victoires de la musique 2016, un an après avoir été nommé dans les Révélations des Victoires de la Musique 2015. Son premier album, Idées blanches, est certifié disque de platine.
+                </p>
+                <p>
+                    Son deuxième album, Vianney, est sorti le 25 novembre 20167 et est certifié disque de diamant. Il en est l'auteur-compositeur, le réalisateur et l'arrangeur.
+                </p>
+                <div class="justify-content-center row row-cols-2 row-cols-md-4">
+                    <a class="btn btn-wkpd col" id="wikipedia" href="https://fr.wikipedia.org/wiki/Vianney_(chanteur)" target="_blank"><span class="iconify" data-inline="false" data-icon="simple-icons:wikipedia" style="color: #000; font-size: 24px;"></span> Wikipedia</a>
+                </div>
+            </div>
+            <!-- BLOC PROCHAINS CONCERTS -->
+            <div class="blocProchainConcert d-flex flex-column justify-content-evenly align-items-center col rounded">
+                <h3>Ses prochains concerts</h3>
+                <!-- DATE 1 -->
+                <div class="blocDateConcert d-flex justify-content-center rounded row row-cols-2 p-1">
+                    <div class="date col">
+                        <p>Samedi</p>
+                        <p class="chiffreDate">27</p>
+                        <p>Février 2021</p>
+                    </div>
+                    <div class="lieu col">
+                        <p>Le Rocher de Palmer</p>
+                        <p><strong>Cenon</strong> (33)</p>
+                    </div>
+                </div>
+                <!-- DATE 2 -->
+                <div class="blocDateConcert d-flex justify-content-center rounded row row-cols-2 p-1">
+                    <div class="date col">
+                        <p>Mercredi</p>
+                        <p class="chiffreDate">03</p>
+                        <p>Mars 2021</p>
+                    </div>
+                    <div class="lieu col">
+                        <p>Transbordeur</p>
+                        <p><strong>Lyon</strong> (69)</p>
+                    </div>
+                </div>
+                <!-- DATE 3 -->
+                <div class="blocDateConcert d-flex justify-content-center rounded row row-cols-2 p-1">
+                    <div class="date col">
+                        <p>Jeudi</p>
+                        <p class="chiffreDate">04</p>
+                        <p>Mars 2021</p>
+                    </div>
+                    <div class="lieu col">
+                        <p>La Rodia</p>
+                        <p><strong>Besançon</strong> (25)</p>
+                    </div>
+                </div>
+                <div class="justify-content-center row row-cols-2 row-cols-md-4">
+                    <button class="btn btn-fnac col d-flex align-items-center justify-content-evenly" id="fnac"></span>Voir à la <span class="iconify" data-inline="false" data-icon="simple-icons:fnac" style="color: #000; font-size: 36px;"></span></button>
+                </div>
+            </div>
+        </div>
+
+        <!-- RECHERCHES RECENTES -->
+        <h2 class="bandeauTitreH2 p-2">Mes recherches récentes</h2>
+        <div id="rechrec" class="row row-cols-1 row-cols-md-2">
+
+            <!-- LES ARTISTES / GROUPES -->
+            <div class="artistes col">
+                <h3 class="bandeauTitreH3Artistes p-1">Artistes / Groupes :</h3>
+                <div class="contenuArtistes d-flex flex-wrap justify-content-evenly">
+                    <!-- ARTISTE 1 - Image dans rep. IMG/ZIK/ -->
+                    <div class="blocArtiste">
+                        <img class="img-fluid rounded" src="img/zik/acdc-high-voltage.jpg" alt="Image-Artiste">
+                        <a href="#"><p class="badge rounded-pill bg-secondary">AC/DC</p></a>
+                    </div>
+                    <!-- ARTISTE 2 - Image dans rep. IMG/ZIK/ -->
+                    <div class="blocArtiste">
+                        <img class="img-fluid rounded" src="img/zik/nirvana-nevermind.jpg" alt="Image-Artiste">
+                        <a href="#"><p class="badge rounded-pill bg-secondary">Nirvana</p></a>
+                    </div>
+                    <!-- ARTISTE 3 - Image dans rep. IMG/ZIK/ -->
+                    <div class="blocArtiste">
+                        <img class="img-fluid rounded" src="img/zik/aznavour-la-boheme.jpg" alt="Image-Artiste">
+                        <a href="#"><p class="badge rounded-pill bg-secondary">C. Aznavour</p></a>
+                    </div>
+                    <!-- ARTISTE 4 - Image dans rep. IMG/ZIK/ -->
+                    <div class="blocArtiste">
+                        <img class="img-fluid rounded" src="img/zik/eminem-the-eminem-show.jpg" alt="Image-Artiste">
+                        <a href="#"><p class="badge rounded-pill bg-secondary">Eminem</p></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LES TITRES -->
+            <div class="titres col">
+                <h3 class="bandeauTitreH3Titres p-1">Titres :</h3>
+                <div class="contenuTitres d-flex flex-wrap justify-content-evenly">
+                    <!--TITRE 1 - Image dans rep. IMG/ZIK/ -->
+                    <div class="blocTitre">
+                        <img class="img-fluid rounded" src="img/zik/noir-desir-tostaky.jpg" alt="Image-Titre">
+                        <span class="badge rounded-pill bg-light text-dark">Noir Désir</span>
+                        <a href="#"><span class="badge rounded-pill bg-success">Tostaky</span></a>
+                    </div>
+                    <!-- TITRE 2 - Image dans rep. IMG/ZIK/ -->
+                    <div class="blocTitre">
+                        <img class="img-fluid rounded" src="img/zik/m-jackson_off-the-wall.jpg" alt="Image-Titre">
+                        <span class="badge rounded-pill bg-light text-dark">M. Jackson</span>
+                        <a href="#"><span class="badge rounded-pill bg-success">Don't stop ...</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- POPULAIRE DANS LA COMMUNAUTE -->
+        <h2 class="bandeauTitreH2 p-2">Artistes / titres populaires dans la communauté :</h2>
+        <div id="populaire" class="row row-cols-1 row-cols-md-2">
+
+            <!-- LES ARTISTES / GROUPES -->
+            <div class="artistes col">
+                <h3 class="bandeauTitreH3Artistes p-1">Artistes / Groupes :</h3>
+                <div class="contenuArtistes d-flex flex-wrap justify-content-evenly">
+                    <!-- ARTISTE 1 - Image dans rep. IMG/ZIK/ARTISTES/ -->
+                    <div class="blocArtiste">
+                        <img class="img-fluid rounded" src="img/zik/artistes/pink-floyd.jpg" alt="Image-Artiste">
+                        <a href="#"><span class="badge rounded-pill bg-secondary">Pink Floyd</span></a>
+                    </div>
+                    <!-- ARTISTE 2 - Image dans rep. IMG/ZIK/ARTISTES/ -->
+                    <div class="blocArtiste">
+                        <img class="img-fluid rounded" src="img/zik/artistes/deep-purple.jpg" alt="Image-Artiste">
+                        <a href="#"><span class="badge rounded-pill bg-secondary">Deep Purple</span></a>
+                    </div>
+                    <!-- ARTISTE 3 - Image dans rep. IMG/ZIK/ARTISTES/ -->
+                    <div class="blocArtiste">
+                        <img class="img-fluid rounded" src="img/zik/artistes/daft-punk.jpg" alt="Image-Artiste">
+                        <a href="#"><span class="badge rounded-pill bg-secondary">Daft Punk</span></a>
+                    </div>
+                    <!-- ARTISTE 4 - Image dans rep. IMG/ZIK/ARTISTES/ -->
+                    <div class="blocArtiste">
+                        <img class="img-fluid rounded" src="img/zik/artistes/bowie.jpg" alt="Image-Artiste">
+                        <a href="#"><span class="badge rounded-pill bg-secondary">D. Bowie</span></a>
+                    </div>
+                    <!-- ARTISTE 5 - Image dans rep. IMG/ZIK/ARTISTES/ -->
+                    <div class="blocArtiste">
+                        <img class="img-fluid rounded" src="img/zik/artistes/lifelike.jpg" alt="Image-Artiste">
+                        <a href="#"><span class="badge rounded-pill bg-secondary">Lifelike</span></a>
+                    </div>
+                    <!-- ARTISTE 5 - Image dans rep. IMG/ZIK/ARTISTES/ -->
+                    <div class="blocArtiste">
+                        <img class="img-fluid rounded" src="img/zik/artistes/brassens.jpg" alt="Image-Artiste">
+                        <a href="#"><span class="badge rounded-pill bg-secondary">G. Brassens</span></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LES TITRES -->
+            <div class="titres col">
+                <h3 class="bandeauTitreH3Titres p-1">Titres :</h3>
+                <div class="contenuTitres d-flex flex-wrap justify-content-evenly">
+                    <!-- TITRE 1 - Image dans rep. IMG/ZIK/TITRES/ -->
+                    <div class="blocTitre">
+                        <img class="img-fluid rounded" src="img/zik/titres/soul-sugar_why-can-t-we-live-together.jpg" alt="Image-Titre">
+                        <span class="badge rounded-pill bg-light text-dark">Soul Sugar</span>
+                        <a href="#"><span class="badge rounded-pill bg-success">Whay can't ...</span></a>
+                    </div>
+                    <!-- TITRE 2 - Image dans rep. IMG/ZIK/TITRES/ -->
+                    <div class="blocTitre">
+                        <img class="img-fluid rounded" src="img/zik/titres/Sharon-Jones-And-The-Dap-Kings_world-of-love.jpg" alt="Image-Titre">
+                        <span class="badge rounded-pill bg-light text-dark">S. Jones ...</span>
+                        <a href="#"><span class="badge rounded-pill bg-success">World of love</span></a>
+                    </div>
+                    <!-- TITRE 3 - Image dans rep. IMG/ZIK/TITRES/ -->
+                    <div class="blocTitre">
+                        <img class="img-fluid rounded" src="img/zik/titres/nick-cave_black-hair.jpg" alt="Image-Titre">
+                        <span class="badge rounded-pill bg-light text-dark">N. Cave</span>
+                        <a href="#"><span class="badge rounded-pill bg-success">Black hair</span></a>
+                    </div>
+                    <!-- TITRE 4 - Image dans rep. IMG/ZIK/TITRES/ -->
+                    <div class="blocTitre">
+                        <img class="img-fluid rounded" src="img/zik/titres/martin-leon_va-savoir-pourquoi.jpg" alt="Image-Titre">
+                        <span class="badge rounded-pill bg-light text-dark">M. Leon</span>
+                        <a href="#"><span class="badge rounded-pill bg-success">Va savoir ...</span></a>
+                    </div>
+                    <!-- TITRE 5 - Image dans rep. IMG/ZIK/TITRES/ -->
+                    <div class="blocTitre">
+                        <img class="img-fluid rounded" src="img/zik/titres/Hania-Rani_leaving.jpg" alt="Image-Titre">
+                        <span class="badge rounded-pill bg-light text-dark">H. Rani</span>
+                        <a href="#"><span class="badge rounded-pill bg-success">Leaving</span></a>
+                    </div>
+                    <!-- TITRE 6 - Image dans rep. IMG/ZIK/TITRES/ -->
+                    <div class="blocTitre">
+                        <img class="img-fluid rounded" src="img/zik/titres/Gettin-down-for-xmas_milly-and-milly.jpg" alt="Image-Titre">
+                        <span class="badge rounded-pill bg-light text-dark">Milly&Milly</span>
+                        <a href="#"><span class="badge rounded-pill bg-success">Gettin' down ...</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER AVEC LIENS -->
+    <footer class="p-2">
+        <ul>
+            <li><a href="#">A propos</a></li>
+            <li><a href="#">Liens</a></li>
+            <li><a href="#">Partenaires</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </footer>
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="assets/app.js"></script>
+</body>
+</html>
