@@ -36,7 +36,7 @@ Ces pastilles sont cliquables.
 
 Finition de la maquette v1.0.
 Mise en place du dossier de projet (arborescence et nom de dossiers imposés):
-![Arborescence du site](https://github.com/ThGDev/MyMusic/blob/master/orga_site.png?raw=true=450x)
+![Arborescence du site](https://github.com/ThGDev/MyMusic/blob/master/orga_site.png?raw=true =450x)
 		
 Mise en place d'un repo GitHub ([Repo My Music](https://github.com/ThGDev/MyMusic) et activation de la page associée [Page GitHub My Music](https://thgdev.github.io/MyMusic))
 Codage de l'**HTML** et du **CSS**.
@@ -62,8 +62,8 @@ Conception de la **maquette v.1.1**. pour les 2 pages demandées, chacune aux 3 
 ## Fonctionnalités à venir
 
  - [ ] Chaque bouton/pastille d'*artiste/groupe* (cas 1) et *titre* (cas 2), lorsqu'elle sera cliquée, permettra d'aller sur une page dédiée.
-		→ vers la **page** de l'artiste/groupe (pour le 1er cas)
-		→ vers la **section** de l'album où se situe le titre dans la **page** de l'artiste/groupe (2ème cas)
+→ vers la **page** de l'artiste/groupe (pour le 1er cas)
+→ vers la **section** de l'album où se situe le titre dans la **page** de l'artiste/groupe (2ème cas)
 		
  - [ ] La **recherche** des artistes/groupes/titres se fera en faisant appel aux [API](https://fr.wikipedia.org/wiki/Interface_de_programmation) de [MusicBrainz](https://musicbrainz.org/doc/MusicBrainz_API), [Spotify](https://developer.spotify.com/documentation/web-api/), [Deezer](https://developers.deezer.com/api) et [TuneIn](https://tunein.com/broadcasters/api/).
 → Le résultat de cette recherche s'affichera juste en dessous du bloc de recherche (sous les boutons).
