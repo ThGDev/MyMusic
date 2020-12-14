@@ -1,7 +1,9 @@
 # My Music
 ## Présentation
 Mr et Mme Skeud, passionnés de musique depuis 40 ans, ont un projet d’application Web. Conseillés par un ami, ils souhaitent tester d’abord cette idée par un prototype de site Web statique. Ils proposent à une école un projet pédagogique consistant à faire réaliser cette première version en utilisant les langages **HTML 5**, **CSS3**, et, pourquoi pas, un zeste de **ECMA script 6**.
+
 2 images d'aperçu sont fournies :
+
 ![Page d'accueil](https://github.com/ThGDev/MyMusic/blob/master/maquette/capt-1.jpg?raw=true)
 ![Page "My Artists"](https://github.com/ThGDev/MyMusic/blob/master/maquette/capt-2.jpg?raw=true)
 
@@ -21,7 +23,7 @@ Réflexion autour du **logo** également, puis autour de l'**ergonomie** (que me
 J'ai opté pour mettre en avant la recherche d'**artiste** ou de **titre**, car ça me semblait être la fonctionnalité la plus importante du projet.
 Puis ensuite, les **dernières recherches effectuées par l'utilisateur**, et enfin les **recherches les plus courantes dans la communauté**.
 
-J'ai également pris le parti de **partager** visuellement *(code couleur différent)* chaque bloc en **2 éléments** :
+J'ai également pris le parti de **partager** visuellement *(code couleur différent)* chaque bloc en **2 éléments** pour mieux les distinguer :
 
  1. les *artistes/groupes*
  2. les *titres*
@@ -34,30 +36,12 @@ Ces pastilles sont cliquables.
 
 Finition de la maquette v1.0.
 Mise en place du dossier de projet (arborescence et nom de dossiers imposés):
-
-    MyMusic
-	    |_ index.html
-	    |_ myartists.html
-	    |_ readme.md
-	    |
-	    |_ css/
-		|   |_ style.css
-		|
-		|_ assets/
-		|	|_ app.js
-		|
-		|_ img/
-		|	|_ zik/
-		|		|_ artistes/
-		|		|_ bio/
-		|		|_ titres/
-		|
-		|_ maquette/
-			|_ fichiers maquette
+![Arborescence du site](https://github.com/ThGDev/MyMusic/blob/master/orga_site.png?raw=true 
+ =450x)
 		
 Mise en place d'un repo GitHub ([Repo My Music](https://github.com/ThGDev/MyMusic) et activation de la page associée [Page GitHub My Music](https://thgdev.github.io/MyMusic))
 Codage de l'**HTML** et du **CSS**.
-→ J'ai, pour un besoin de productivité, fais le choix d'utiliser le framework CSS [Bootstrap 5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/), des bibliothèques [FontAwesome](https://fontawesome.com) et [Iconify](https://iconify.design).
+→ J'ai, **pour un besoin de productivité**, fais le choix d'utiliser le framework CSS [Bootstrap 5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/), des bibliothèques [FontAwesome](https://fontawesome.com) et [Iconify](https://iconify.design).
 
 ## Jour 3 - 12/12/2020
 
@@ -66,7 +50,7 @@ Conception de la **maquette v.1.1**. pour les 2 pages demandées, chacune aux 3 
 
 ## Jour 4 - 14/12/2020
 
-**Création** de la page [myartists.html](https://thgdev.github.i.o/MyMusic/myartists.html) et **refonte** complète CSS du design d'après la maquette v.1.1.
+**Mise en place** du **HTML** de la page [myartists.html](https://thgdev.github.i.o/MyMusic/myartists.html) et **refonte** complète CSS du design d'après la maquette v.1.1.
 **Codage** de quelques **fonctionnalités basiques** en **JS** *(empêchement de rafraîchissement de page lors du clic sur un bouton de la page d'accueil)*.
 
 ## Jour 5 - 15/12/2020
