@@ -28,9 +28,9 @@
                 <!-- INPUTS -->
                 <div id="inputs" class="justify-content-center">
                     <h2>Rechercher</h2>
-                    <input class="form-control form-control-lg" type="text" placeholder="Un artiste">
+                    <input id="inputArtiste" class="form-control form-control-lg" type="text" placeholder="Un artiste">
                     <p>ou</p>
-                    <input class="form-control form-control-lg" type="text" placeholder="Un morceau">
+                    <input id="inputTitre" class="form-control form-control-lg" type="text" placeholder="Un morceau">
                 </div>
                 <!-- BOUTONS -->
                 <div id="blocBoutons" class="">
@@ -38,7 +38,7 @@
                     <div id="buttons" class="justify-content-center row row-cols-2 row-cols-md-4">
                         <button class="btn btn-mb col" id="musicbrainz" data-bs-toggle="tooltip" data-bs-placement="top" title="Pas encore disponible"><span class="iconify" data-inline="false" data-icon="simple-icons:musicbrainz" style="color: #ffffff; font-size: 24px;"></span> MusicBrainz</button>
                         <button class="btn btn-sptf col" id="spotify" data-bs-toggle="tooltip" data-bs-placement="top" title="Pas encore disponible"><span class="iconify" data-inline="false" data-icon="simple-icons:spotify" style="color: #ffffff; font-size: 24px;"></span> Spotify</button>
-                        <button class="btn btn-dz col" id="deezer" data-bs-toggle="tooltip" data-bs-html="true" title="<em>Pour l'exemple, l'affichage des résultats de recherche est fixé au groupe AC/DC</em>"><span class="iconify" data-inline="false" data-icon="simple-icons:deezer" style="color: #ffffff; font-size: 24px;"></span> Deezer</button>
+                        <button class="btn btn-dz col" id="deezer" data-bs-toggle="tooltip" data-bs-html="true" title="<em>Pour l'exemple, l'affichage des résultats de recherche d'artiste est fixé au groupe AC/DC et ceux des titres est fixé à Christmas</em>"><span class="iconify" data-inline="false" data-icon="simple-icons:deezer" style="color: #ffffff; font-size: 24px;"></span> Deezer</button>
                         <button class="btn btn-ti col" id="tunein" data-bs-toggle="tooltip" data-bs-placement="top" title="Pas encore disponible"><span class="iconify" data-inline="false" data-icon="simple-icons:tunein" style="color: #1c203c; font-size: 24px;"></span> TuneIn</button>
                     </div>
                 </div>
@@ -47,10 +47,12 @@
 
         <!-- RESULTATS DE RECHERCHE -->
         <div id="resultRecherche">
+            <!-- affichage message erreur -->
+            <div id="errorMsg"></div>
             
             <!-- PAR ARTISTE -->
             <div id="artistes">
-                <div class=" d-flex justify-content-center align-items-center">
+                <div class="d-flex justify-content-center align-items-center">
                     <h3 class="underline text-end">Résultats de votre recherche pour :</h3> 
                     <div class="d-flex flex-wrap justify-content-center align-items-center">
                         <span class="rechNom">AC/DC</span> 
@@ -58,11 +60,30 @@
                     </div>
                 </div>
                 <div id="resultRechercheArtiste" class="row row-cols-2 row-cols-md-4 row-cols-lg-6"></div>
+
+                <!-- PAGINATION -->
+                <div class="d-flex justify-content-center align-items-center">
+                    <ul class="pagination pagination-sm">
+                      <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Precedent">
+                          <span aria-hidden="true">&laquo;</span>
+                        </a>
+                      </li>
+                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Suivant">
+                          <span aria-hidden="true">&raquo;</span>
+                        </a>
+                      </li>
+                    </ul>
+                </div>
             </div>
 
             <!-- PAR TITRE -->
             <div id="titres">
-                <div class=" d-flex justify-content-center align-items-center">
+                <div class="d-flex justify-content-center align-items-center">
                     <h3 class="underline text-end">Résultats de votre recherche pour :</h3> 
                     <div class="d-flex flex-wrap justify-content-center align-items-center">
                         <span class="rechNom">Christmas</span> 
@@ -70,7 +91,28 @@
                     </div>
                 </div>
                 <div id="resultRechercheTitre" class="row row-cols-2 row-cols-md-4 row-cols-lg-6"></div>
-                <audio src="https://cdns-preview-9.dzcdn.net/stream/c-9b9fb519f95049a44d247ce37450edb9-6.mp3"></audio>
+                <div class="d-flex justify-content-center align-items-center">
+                    <audio controls src="https://cdns-preview-9.dzcdn.net/stream/c-9b9fb519f95049a44d247ce37450edb9-6.mp3"></audio>
+                </div>
+
+                <!-- PAGINATION -->
+                <div class="d-flex justify-content-center align-items-center">
+                    <ul class="pagination pagination-sm">
+                      <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Precedent">
+                          <span aria-hidden="true">&laquo;</span>
+                        </a>
+                      </li>
+                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Suivant">
+                          <span aria-hidden="true">&raquo;</span>
+                        </a>
+                      </li>
+                    </ul>
+                </div>
             </div>
         </div>
 

@@ -221,6 +221,16 @@ h3.bandeauTitreH3Titres{
     background: #B76AD1;
     color: #fff;
 }
+/*--------------------- AUDIO ---------------------*/
+audio{
+    width: 65%;
+    margin-bottom: 10px;
+}
+
+/*--------------------- PAGINATION ---------------------*/
+.page-link{
+    background: #000;
+}
 
 /* BLOC BIO */
 .titreSpanBio{
