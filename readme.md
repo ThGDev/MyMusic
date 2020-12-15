@@ -36,6 +36,7 @@ Création d'une **maquette v. 1.0** pour la page d'accueil à l'aide de [FIGMA](
  3. Desktop
 
 Réflexion autour du **logo** également, puis autour de l'**ergonomie** (que mettre en avant, dans quel ordre).
+
 → Création *(très)* rapide du logo avec le service en ligne : [Looka](https://looka.com).
 
 J'ai opéré des changements par rapport à la capture d'écran fournie qui permettait la recherche soit par **nom**, soit par **groupe**, car cette différenciation de recherche ne me semblait pas cohérente (et redondante).
