@@ -67,6 +67,7 @@ Mise en place du dossier de projet (arborescence et nom de dossiers imposés):
 		
 Mise en place d'un repo GitHub ([Repo My Music](https://github.com/ThGDev/MyMusic) et activation de la page associée [Page GitHub My Music](https://thgdev.github.io/MyMusic))
 Codage de l'**HTML** et du **CSS**.
+
 → J'ai, **pour un besoin de productivité**, fais le choix d'utiliser le framework CSS [Bootstrap 5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/), des bibliothèques [FontAwesome](https://fontawesome.com) et [Iconify](https://iconify.design).
 
 ## Jour 3 - 12/12/2020
@@ -91,6 +92,7 @@ Conception de la **maquette v.1.1**. pour les 2 pages demandées, chacune aux 3 
 ## Jour 5 - 15/12/2020
 
 Concernant la fonctionnalité de biographie attendue, et après mûre réflexion, **j'ai pris le parti de changer ce comportement** estimant **plus pertinent** d'afficher une bio **aléatoire** afin d'inciter l'utilisateur à **découvrir** un nouvel artiste qu'il ne connaîtrait pas forcément (c'est souvent attrayant pour les fans de musique, la cible de notre site).
+
 → La redéfinition de cette fonctionnalité est à faire valider par le client.
 
 
@@ -101,6 +103,7 @@ Concernant la fonctionnalité de biographie attendue, et après mûre réflexion
 ## A FAIRE !!
 *(mais absent sur maquette)*
 
+ - [x] Rendre le logo "cliquable" → renvoi vers la page accueil
  - [ ] Aperçu résultats de recherche sur page accueil
  - [ ] Possibilité ajout favoris sur résultats de recherche
  - [ ] Formulaire de contact
