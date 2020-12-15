@@ -11,7 +11,7 @@
 
 ## Jour 1 - 09/12/2020
 
-Création d'une **maquette v. 1.0** pour la page d'accueil à l'aide de [FIGMA](https://www.figma.com/file/91sB9QX62lBYygXUc4j3z5/MyMusic?node-id=0:1) en 3 formats :
+Création d'une **maquette v. 1.0** pour la page d'accueil à l'aide de [FIGMA](https://www.figma.com/file/91sB9QX62lBYygXUc4j3z5/MyMusic?node-id=0:1) ***(cliquer pour aller voir ma maquette)*** en 3 formats :
 
  1. Smartphone
  2. Tablette
