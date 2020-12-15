@@ -9,12 +9,15 @@ L'utilisateur constitue donc une liste de ses artistes favoris à partir d'une r
 **Il est imposé :**
 
 → de produire un site "responsive" (s'adaptant à différentes résolutions d'écran)
+
 → d'utiliser un dégradé
+
 → de garder le nom du site (qui est une marque déposée)
 
 **Il est attendu :**
 
 → un site *uniquement* statique
+
 → de montrer une **biographie** de l'artiste sélectionné sur la page "Mes Artistes" (voir *Jour 5*)
 
 2 images d'aperçu sont fournies :
@@ -40,6 +43,7 @@ J'ai opéré des changements par rapport à la capture d'écran fournie qui perm
 J'ai opté pour mettre en avant la recherche d'**artiste** ou de **titre**, car ça me semblait plus logique et être la fonctionnalité la plus importante du projet.
 
 Il était également important de créer des boutons au visuel correspondant aux différents services de recherche proposés.
+
 → La plupart des codes couleurs sont dispos là : [Brand Colors](https://brandcolors.net).
 
 Puis ensuite, les **dernières recherches effectuées par l'utilisateur**, et enfin les **recherches les plus courantes dans la communauté**.
