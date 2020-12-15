@@ -196,7 +196,7 @@ h3.bandeauTitreH3Titres{
     text-decoration: none;
 }
 #artistes, #titres{
-    /* display: none; */
+    display: none;
 }
 .underline{
     text-decoration: underline;
