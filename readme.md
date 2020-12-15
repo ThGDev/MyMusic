@@ -2,6 +2,21 @@
 ## Présentation
 > Mr et Mme Skeud, passionnés de musique depuis 40 ans, ont un projet d’application Web. Conseillés par un ami, ils souhaitent tester d’abord cette idée par un prototype de site Web statique. Ils proposent à une école un projet pédagogique consistant à faire réaliser cette première version en utilisant les langages **HTML 5**, **CSS3**, et, pourquoi pas, un zeste de **ECMA script 6**.
 
+### Objectif
+Proposer aux utilisateurs du site une expérience musicale, basée sur la recherche centralisée des ressources concernant les musiciens placés dans une liste de favoris.
+L'utilisateur constitue donc une liste de ses artistes favoris à partir d'une recherche par nom d'artiste ou de nom de groupe, qui ira interroger les services de musique en ligne comme Spotify, TuneIn, Deezer ou MusicBrainz.
+
+**Il est imposé :**
+
+→ de produire un site "responsive" (s'adaptant à différentes résolutions d'écran)
+→ d'utiliser un dégradé
+→ de garder le nom du site (qui est une marque déposée)
+
+**Il est attendu :**
+
+→ un site *uniquement* statique
+→ de montrer une **biographie** de l'artiste sélectionné sur la page "Mes Artistes" (voir *Jour 5*)
+
 2 images d'aperçu sont fournies :
 
 ![Page d'accueil](https://github.com/ThGDev/MyMusic/blob/master/maquette/capt-1.jpg?raw=true)
@@ -20,7 +35,10 @@ Création d'une **maquette v. 1.0** pour la page d'accueil à l'aide de [FIGMA](
 Réflexion autour du **logo** également, puis autour de l'**ergonomie** (que mettre en avant, dans quel ordre).
 → Création *(très)* rapide du logo avec le service en ligne : [Looka](https://looka.com).
 
-J'ai opté pour mettre en avant la recherche d'**artiste** ou de **titre**, car ça me semblait être la fonctionnalité la plus importante du projet.
+J'ai opéré des changements par rapport à la capture d'écran fournie qui permettait la recherche soit par **nom**, soit par **groupe**, car cette différenciation de recherche ne me semblait pas cohérente (et redondante).
+
+J'ai opté pour mettre en avant la recherche d'**artiste** ou de **titre**, car ça me semblait plus logique et être la fonctionnalité la plus importante du projet.
+
 Il était également important de créer des boutons au visuel correspondant aux différents services de recherche proposés.
 → La plupart des codes couleurs sont dispos là : [Brand Colors](https://brandcolors.net).
 
@@ -66,6 +84,9 @@ Conception de la **maquette v.1.1**. pour les 2 pages demandées, chacune aux 3 
 **Codage** de quelques **fonctionnalités basiques** en **JS** *(empêchement de rafraîchissement de page lors du clic sur un bouton de la page d'accueil)*.
 
 ## Jour 5 - 15/12/2020
+
+Concernant la fonctionnalité de biographie attendue, et après mûre réflexion, **j'ai pris le parti de changer ce comportement** estimant **plus pertinent** d'afficher une bio **aléatoire** afin d'inciter l'utilisateur à **découvrir** un nouvel artiste qu'il ne connaîtrait pas forcément (c'est souvent attrayant pour les fans de musique, la cible de notre site).
+→ La redéfinition de cette fonctionnalité est à faire valider par le client.
 
 
 
