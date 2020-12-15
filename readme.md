@@ -91,20 +91,27 @@ Conception de la **maquette v.1.1**. pour les 2 pages demandées, chacune aux 3 
 
 ## Jour 5 - 15/12/2020
 
-Concernant la fonctionnalité de biographie attendue, et après mûre réflexion, **j'ai pris le parti de changer ce comportement** estimant **plus pertinent** d'afficher une bio **aléatoire** afin d'inciter l'utilisateur à **découvrir** un nouvel artiste qu'il ne connaîtrait pas forcément (c'est souvent attrayant pour les fans de musique, la cible de notre site).
+ 1. Concernant la fonctionnalité de biographie attendue, et après mûre réflexion, **j'ai pris le parti de changer ce comportement** estimant **plus pertinent** d'afficher une bio **aléatoire** afin d'inciter l'utilisateur à **découvrir** un nouvel artiste qu'il ne connaîtrait pas forcément (c'est souvent attrayant pour les fans de musique, la cible de notre site).
 
 → La redéfinition de cette fonctionnalité est à faire valider par le client.
 
+ 2. Test des pages sur le [validateur HTML W3C](https://validator.w3.org) : **OK**
+ 3. Test des pages sur le [validateur CSS W3C](https://jigsaw.w3.org/css-validator/) : des erreurs sont présentes, mais sont liées à **Bootstrap** et non à mon propre fichier de style.
+
+ 4. Modification de la maquette (uniquement la page d'accueil en version desktop pour gagner du temps) pour intégrer l'aperçu du résultat d'une recherche (artiste **ou** titre)
 
 
 ## Jour 6 - 16/12/2020
 
 
+## Annexe Temps
+
+J'ai également passé un peu de temps en aide/dépannage/coaching divers.
 ## A FAIRE !!
 *(mais absent sur maquette)*
 
  - [x] Rendre le logo "cliquable" → renvoi vers la page accueil
- - [ ] Aperçu résultats de recherche sur page accueil
+ - [x] Aperçu résultats de recherche sur page accueil
  - [ ] Possibilité ajout favoris sur résultats de recherche
  - [ ] Formulaire de contact
  - [ ] Page "A propos"

@@ -183,12 +183,43 @@ h3.bandeauTitreH3Titres{
 }
 .blocArtiste, .blocTitre {
     width: calc(100% / 4);
+}
+.blocRechArtiste, .blocRechTitre{
+    /* width: 100%; */
+}
+.blocArtiste, .blocTitre, .blocRechArtiste, .blocRechTitre{
     text-align: center;
     padding: 10px;
     position: relative;
 }
-.blocArtiste a, .blocTitre a{
+.blocArtiste a, .blocTitre a, .blocRechArtiste a, .blocRechTitre a{
     text-decoration: none;
+}
+#artistes, #titres{
+    /* display: none; */
+}
+.underline{
+    text-decoration: underline;
+    display: inline-block;
+}
+#resultRecherche h3{
+    margin-right: 20px;
+}
+.rechNom{
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+.badgeRechArtiste, .badgeRechTitre{
+    margin: 10px;
+}
+.badgeRechArtiste{
+    background: #14D8CC;
+    color: #343A40;
+}
+.badgeRechTitre{
+    background: #B76AD1;
+    color: #fff;
 }
 
 /* BLOC BIO */
