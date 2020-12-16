@@ -122,8 +122,6 @@ J'ai également passé un peu de temps en aide/dépannage/coaching divers.
  - [x] Rendre le logo "cliquable" → renvoi vers la page accueil
  - [x] Aperçu résultats de recherche sur page accueil
  - [x] Possibilité ajout favoris sur résultats de recherche
- - [ ] Formulaire de contact
- - [ ] Page "A propos"
  - [x] Modifier "A propos" par "Qui sommes-nous" dans le footer (afin d'harmoniser avec la barre de navigation du header)
  - [x] Ajouter des Tooltips sur les étoiles de favoris (pour qu'on les remarque plus)
  - [x] Ajouter lecteur sous photo artiste "BIO" pour écouter un de ses titres.
@@ -134,6 +132,8 @@ J'ai également passé un peu de temps en aide/dépannage/coaching divers.
  **OU**
  - [ ] fetch() API Deezer.
  - [ ] Boucle sur artistes/groupes/titres
+ - [ ] Formulaire de contact
+ - [ ] Page "A propos"
 
 ## Fonctionnalités à venir
 
