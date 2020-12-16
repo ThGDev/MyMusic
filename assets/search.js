@@ -30,6 +30,7 @@ const remplissageArtistes = () => {
     imagesArtistes.forEach((image) => {
         resultatsRechercheArtistes.insertAdjacentHTML('beforeend',
         `<div class="blocRechArtiste col">
+            <span class="favArtistes" data-bs-toggle="tooltip" data-bs-placement="top" title="Mettre en favoris"><a href="#"><i class="far fa-star"></i></a></span>
             <img class="img-fluid rounded" src="${image}" alt="Image-Artiste">
             <a href="#"><p class="badge rounded-pill bg-secondary">Titre Album</p></a>
         </div>`
@@ -50,6 +51,7 @@ const remplissageTitres = () => {
     imagesTitres.forEach((image) => {
         resultatsRechercheTitres.insertAdjacentHTML('beforeend',
         `<div class="blocRechTitre col">
+            <span class="favTitres" data-bs-toggle="tooltip" data-bs-placement="top" title="Mettre en favoris"><a href="#"><i class="far fa-star"></i></a></span>
             <img class="img-fluid rounded" src="${image}" alt="Image-Titre">
             <a href="#"><span class="badge rounded-pill bg-light text-dark">Artiste</span></a>
             <a href="#"><span class="badge rounded-pill bg-success">Titre</span></a>

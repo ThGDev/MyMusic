@@ -104,15 +104,18 @@ Conception de la **maquette v.1.1**. pour les 2 pages demandées, chacune aux 3 
 
  → Pour le moment, les **recherches** sont **limitées** à 1 artiste/groupe et 1 titre, c'est **uniquement pour tester** la mise en page.
 
- → **codage** des **fonctions d'affichage** et de **vérification** des champs en JS (au clic sur le bouton Deezer, vérifier que les 2 champs de recherche ne sont pas vides ou remplis -sinon message d'erreur, puis vérifier lequel est rempli et afficher les résultats en conséquence)
-
+ → **codage** des **fonctions d'affichage** et de **vérification des champs** en JS *(au clic sur le bouton Deezer, vérifier que les 2 champs de recherche ne sont pas vides ou remplis -sinon message d'erreur, puis vérifier lequel est rempli et afficher les résultats en conséquence)*
 
 ## Jour 6 - 16/12/2020
 
+ - Ajout de la fonctionnalité "favoris" dans les résultats de recherche
+ - Ajout des tooltips sur les étoiles de favoris (soit *"Mettre en favoris"* soit *"Retirer des favoris"*)
+ - Ajout du lecteur *Deezer* pour écouter un titre de l'artiste mis en avant dans la section "Bio"
 
 ## Annexe Temps
 
 J'ai également passé un peu de temps en aide/dépannage/coaching divers.
+
 ## A FAIRE !!
 *(mais absent sur maquette)*
 
@@ -122,6 +125,8 @@ J'ai également passé un peu de temps en aide/dépannage/coaching divers.
  - [ ] Formulaire de contact
  - [ ] Page "A propos"
  - [x] Modifier "A propos" par "Qui sommes-nous" dans le footer (afin d'harmoniser avec la barre de navigation du header)
+ - [x] Ajouter des Tooltips sur les étoiles de favoris (pour qu'on les remarque plus)
+ - [x] Ajouter lecteur sous photo artiste "BIO" pour écouter un de ses titres.
 
  ## A FAIRE si possible et si temps restant
 
@@ -129,7 +134,6 @@ J'ai également passé un peu de temps en aide/dépannage/coaching divers.
  **OU**
  - [ ] fetch() API Deezer.
  - [ ] Boucle sur artistes/groupes/titres
-
 
 ## Fonctionnalités à venir
 
@@ -147,4 +151,4 @@ J'ai également passé un peu de temps en aide/dépannage/coaching divers.
 
  - [ ] Prévoir un dark/light mode.
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Light_Bulb_or_Idea_Flat_Icon_Vector.svg/20px-Light_Bulb_or_Idea_Flat_Icon_Vector.svg.png" /> *Fichier créé à l'aide de [StackEdit.io](https://stackedit.io)* et modifié avec [Visual Studio Code](https://code.visualstudio.com/)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Light_Bulb_or_Idea_Flat_Icon_Vector.svg/20px-Light_Bulb_or_Idea_Flat_Icon_Vector.svg.png" /> *Fichier créé à l'aide de [StackEdit.io](https://stackedit.io) et modifié avec [Visual Studio Code](https://code.visualstudio.com/)*
