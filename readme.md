@@ -44,6 +44,7 @@ J'ai opéré des changements par rapport à la capture d'écran fournie qui perm
 J'ai opté pour mettre en avant la recherche d'**artiste** ou de **titre**, car ça me semblait plus logique et être la fonctionnalité la plus importante du projet.
 
 Il était également important de créer des boutons au visuel correspondant aux différents services de recherche proposés.
+Concernant ces boutons, **seul** le bouton **deezer** est opérationnel pour la 1ère version du site. J'ai donc mis en place des "tooltips" *(nomenclature Bootstrap)* d'information.
 
 → La plupart des codes couleurs sont dispos là : [Brand Colors](https://brandcolors.net).
 
@@ -139,10 +140,11 @@ J'ai également passé un peu de temps en aide/dépannage/coaching divers.
 → vers la **section** de l'album où se situe le titre dans la **page** de l'artiste/groupe (2ème cas)
 		
  - [ ] La **recherche** des artistes/groupes/titres se fera en faisant appel aux [API](https://fr.wikipedia.org/wiki/Interface_de_programmation) de [MusicBrainz](https://musicbrainz.org/doc/MusicBrainz_API), [Spotify](https://developer.spotify.com/documentation/web-api/), [Deezer](https://developers.deezer.com/api) et [TuneIn](https://tunein.com/broadcasters/api/).
- 
+
 → Le résultat de cette recherche s'affichera juste en dessous du bloc de recherche (sous les boutons).
 
  - [ ] Possibilité de **mettre en favoris** un **artiste/groupe** ou un **titre** depuis les résultats de recherche sur la page d'accueil.
 
+ - [ ] Prévoir un dark/light mode.
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Light_Bulb_or_Idea_Flat_Icon_Vector.svg/20px-Light_Bulb_or_Idea_Flat_Icon_Vector.svg.png" /> *Fichier créé à l'aide de [StackEdit.io](https://stackedit.io)*
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Light_Bulb_or_Idea_Flat_Icon_Vector.svg/20px-Light_Bulb_or_Idea_Flat_Icon_Vector.svg.png" /> *Fichier créé à l'aide de [StackEdit.io](https://stackedit.io)* et modifié avec [Visual Studio Code](https://code.visualstudio.com/)
