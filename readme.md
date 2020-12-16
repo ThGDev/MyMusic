@@ -99,6 +99,11 @@ Conception de la **maquette v.1.1**. pour les 2 pages demandées, chacune aux 3 
  3. Test des pages sur le [validateur CSS W3C](https://jigsaw.w3.org/css-validator/) : des erreurs sont présentes, mais sont liées à **Bootstrap** et non à mon propre fichier de style.
 
  4. Modification de la maquette (uniquement la page d'accueil en version desktop pour gagner du temps) pour intégrer l'aperçu du résultat d'une recherche (artiste **ou** titre)
+ 5. Modification de la page d'accueil HTML pour afficher les résultats de recherche.
+
+ → Pour le moment, les **recherches** sont **limitées** à 1 artiste/groupe et 1 titre, c'est **uniquement pour tester** la mise en page.
+
+ → **codage** des **fonctions d'affichage** et de **vérification** des champs en JS (au clic sur le bouton Deezer, vérifier que les 2 champs de recherche ne sont pas vides ou remplis -sinon message d'erreur, puis vérifier lequel est rempli et afficher les résultats en conséquence)
 
 
 ## Jour 6 - 16/12/2020
@@ -112,10 +117,10 @@ J'ai également passé un peu de temps en aide/dépannage/coaching divers.
 
  - [x] Rendre le logo "cliquable" → renvoi vers la page accueil
  - [x] Aperçu résultats de recherche sur page accueil
- - [ ] Possibilité ajout favoris sur résultats de recherche
+ - [x] Possibilité ajout favoris sur résultats de recherche
  - [ ] Formulaire de contact
  - [ ] Page "A propos"
- - [ ] Modifier "A propos" par "Qui sommes-nous" dans le footer (afin d'harmoniser avec la barre de navigation du header)
+ - [x] Modifier "A propos" par "Qui sommes-nous" dans le footer (afin d'harmoniser avec la barre de navigation du header)
 
  ## A FAIRE si possible et si temps restant
 
@@ -128,10 +133,13 @@ J'ai également passé un peu de temps en aide/dépannage/coaching divers.
 ## Fonctionnalités à venir
 
  - [ ] Chaque bouton/pastille d'*artiste/groupe* (cas 1) et *titre* (cas 2), lorsqu'elle sera cliquée, permettra d'aller sur une page dédiée.
+
 → vers la **page** de l'artiste/groupe (pour le 1er cas)
+
 → vers la **section** de l'album où se situe le titre dans la **page** de l'artiste/groupe (2ème cas)
 		
  - [ ] La **recherche** des artistes/groupes/titres se fera en faisant appel aux [API](https://fr.wikipedia.org/wiki/Interface_de_programmation) de [MusicBrainz](https://musicbrainz.org/doc/MusicBrainz_API), [Spotify](https://developer.spotify.com/documentation/web-api/), [Deezer](https://developers.deezer.com/api) et [TuneIn](https://tunein.com/broadcasters/api/).
+ 
 → Le résultat de cette recherche s'affichera juste en dessous du bloc de recherche (sous les boutons).
 
  - [ ] Possibilité de **mettre en favoris** un **artiste/groupe** ou un **titre** depuis les résultats de recherche sur la page d'accueil.
